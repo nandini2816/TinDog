@@ -1,0 +1,144 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+/* Container */
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/* Title section*/
+
+#title .container-fluid {
+  padding: 3% 15% 5%;
+  text-align: left;
+}
+
+.title-heading {
+  font-size: 3.5rem;
+}
+
+/* Navbar Section */
+.navbar {
+  padding: 0 0 10%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+/* Download Button */
+.download-btn {
+  margin: 30px 30px 20px 0;
+}
+
+/* Phone Image */
+.phone-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 12%;
+  position: absolute;
+}
+
+/* feature Section */
+#features {
+  position: relative;
+}
+
+.feature-icon {
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-col {
+  padding: 0 20px;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+/* Pricing Section */
+.pricing-col {
+  padding: 2% 3%;
+}
+
+@media (max-width:1120px) {
+  .phone-image {
+    position: static;
+    transform: rotate(0deg);
+    margin: 0 auto;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to Action Section */
+
+.cta-text {
+  font-size: 2.8rem;
+}
+
+/* Footer Section */
+.footer-icon {
+  margin: 0 10px 30px;
+}
